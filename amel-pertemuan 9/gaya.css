@@ -1,0 +1,12 @@
+p{
+    color: cornflowerblue;
+    text-align: justify;
+
+}
+a{
+    color: rgb(227, 101, 55);
+}
+footer,header{
+    background-color: rgb(2, 192, 239);
+    font-size: 25px;
+}
