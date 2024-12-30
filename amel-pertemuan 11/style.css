@@ -1,0 +1,89 @@
+.header {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f4f8;
+    overflow-x: hidden;
+}
+
+.navbar{
+    background-color: rgb(122, 235, 24);
+    margin-left: 10px;
+}
+
+.navbar:hover{
+    background-color: pink;
+    transition: 2s;
+    box-shadow: 10px,10px,10px rgb(7, 84, 152);
+    border: 1px dashed;
+}
+
+.gambar {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.gambar img {
+    max-width: 100%;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    transition: transform 0.5s ease;
+}
+
+.img:hover {
+    transform: scale(2)
+    rotate(10deg)
+    translate(10px,10px)
+    ;
+}
+
+.profil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.profil:hover {
+    transform: rotate(-2deg) scale(1.05);
+}
+
+.rounded{
+    border: 1px red;
+    text-align: center;
+    animation-name: berubah;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    border-radius: 25px;
+    /* text-shadow: 4px,3px,2px, black; */
+    box-shadow: 2px,3px,2px black;
+    height: max-content;
+    font-size: 40px;
+}
+
+.rounded:hover{
+    transform: scale(2);
+}
+
+@keyframes berubah{
+    0%{background-color: rgb(34, 50, 133);}
+    50%{background-color: rgb(8, 61, 142);}
+    1000%{background-color: rgb(17, 130, 150);}
+}
