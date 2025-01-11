@@ -1,0 +1,36 @@
+@use 'header';
+@use 'nav';
+@use 'hero';
+@use 'features';
+@use 'cta';
+
+$warnaPrimer: lightcoral;
+$warnaSekunder: white;
+
+header {
+    background-color: $warnaPrimer;
+    color: $warnaSekunder;
+    font-size: h1.$ukuranFont;
+}
+
+nav {
+    margin-top: $margin-top;
+    background-color: hover.$warnaPrimer;
+    color: hover.$warnaSekunder;
+} 
+
+.hero{
+    background-color: $warnaPrimer;
+    color: p.$warnaSekunder;
+    font-size: $ukuranFont;
+}
+
+.features {
+    padding: $padding;
+}
+
+.cta {
+    background-color: cta.$warnaSekunder;
+    padding: btn.$padding;
+    $margin-top: 10px;
+}

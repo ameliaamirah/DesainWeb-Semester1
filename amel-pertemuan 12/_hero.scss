@@ -1,0 +1,22 @@
+$warnaPrimer: lightpink;
+$warnaSekunder: rgb(218, 62, 148);
+$ukuranFont: 1.1em;
+.hero {
+    background-color: $warnaPrimer;
+    padding: 40px 0;
+
+    .container {
+        text-align: center;
+
+        h1 {
+            color: $warnaSekunder;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: $warnaSekunder;
+            font-size: $ukuranFont;
+        }
+    }
+}

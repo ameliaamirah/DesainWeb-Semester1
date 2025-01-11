@@ -1,0 +1,31 @@
+$padding: 10px 20px;
+$warnaSekunder: rgb(231, 132, 132);
+.cta {
+    background-color: $warnaSekunder;
+    color: white;
+    padding: 20px 0;
+
+    .container {
+        text-align: center;
+
+        h2 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        .btn {
+            background-color: $warnaSekunder;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: $padding;
+            border-radius: 5px;
+            display: inline-block;
+            $margin-top: 10px;
+        }
+    }
+}
